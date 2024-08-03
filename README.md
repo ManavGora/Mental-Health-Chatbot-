@@ -1,8 +1,8 @@
 # Mental Health Chatbot & Diabetes Classification API
-
+<br>
 
 ![](Images/3.png)
-
+<br>
 
 This project provides a FastAPI server with two distinct endpoints:
 - `/RAG`: A Retrieval-Augmented Generation (RAG) application for a mental health chatbot.
