@@ -1,5 +1,6 @@
 # Mental Health Chatbot & Diabetes Classification API
 
+
 ![](Images/3.png)
 
 
@@ -66,7 +67,7 @@ pip install -r requirements.txt
 docker buildx build -t <Image_Name> .
 ```
 
-[](1.png)
+![](Images/1.png)
 
 - For creating an Container in an Image :-
 
@@ -74,7 +75,7 @@ docker buildx build -t <Image_Name> .
 docker run -p 7860:7860 <Image_Name>
 ````
 
-[](2.png)
+![](Images/2.png)
 
 
 ## Endpoints
@@ -85,7 +86,7 @@ docker run -p 7860:7860 <Image_Name>
 - **Method**: GET
 - **Query Parameter**: `prompt` (str) - The user's input describing their mental health issues.
 
-[](4.png)
+![](Images/4.png)
 
 Example:
 
@@ -119,7 +120,7 @@ Response:
   - `DiabetesPedigreeFunction`: float
   - `Age`: int
 
-  [](5.png)
+  ![](Images/5.png)
 
 Example:
 
@@ -144,7 +145,7 @@ Response:
 }
 ```
 
-[](6.png)
+![](Images/6.png)
 
 ## Dockerization
 
