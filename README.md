@@ -1,6 +1,6 @@
 # Mental Health Chatbot & Diabetes Classification API
 
-![](images/3.png)
+![](Images/3.png)
 
 
 This project provides a FastAPI server with two distinct endpoints:
