@@ -2,6 +2,7 @@
 <br>
 
 ![](Images/3.png)
+
 <br>
 
 This project provides a FastAPI server with two distinct endpoints:
@@ -66,17 +67,19 @@ pip install -r requirements.txt
 ```bash
 docker buildx build -t <Image_Name> .
 ```
-
+<br>
 ![](Images/1.png)
+
+<br>
 
 - For creating an Container in an Image :-
 
 ```bash
 docker run -p 7860:7860 <Image_Name>
 ````
-
+<br>
 ![](Images/2.png)
-
+<br>
 
 ## Endpoints
 
@@ -86,7 +89,9 @@ docker run -p 7860:7860 <Image_Name>
 - **Method**: GET
 - **Query Parameter**: `prompt` (str) - The user's input describing their mental health issues.
 
+<br>
 ![](Images/4.png)
+<br>
 
 Example:
 
@@ -120,7 +125,9 @@ Response:
   - `DiabetesPedigreeFunction`: float
   - `Age`: int
 
+  <br>
   ![](Images/5.png)
+  <br>
 
 Example:
 
@@ -145,7 +152,9 @@ Response:
 }
 ```
 
+<br>
 ![](Images/6.png)
+<br>
 
 ## Dockerization
 
